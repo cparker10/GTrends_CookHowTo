@@ -1,45 +1,37 @@
-
-<html>
+<!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    {% load static %}
-      <link rel="stylesheet" href="{% static 'djapp1/css/style.css' %}"> 
-      
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'djapp1/css/style.css' %}">
     </head>
-    
-    <body>
-        <div class = "container">
-            <div class = "row">
-                <div class ="col-12 border border-primary">  
-                    
-                    <div class="row headerrow align-items-centerstart">
-                    How to Cook...Search Visualization
-                    </div>
-                    
-                    <div class="row jumbotronrow">
-                        <div class="jumbotron jumbotron-fluid">
-                            <div class="container">
-                                <h1 class="display-4">What's Cooking? </h1>
-                                <p class="lead">That's what we aim to answer.  <br>We used Google Trends to track the most popular searches related to "how to cook" for the five year period of June 20, 2014 - June 20, 2019.</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- <div class="iframe-container">
-                        <iframe width=100%  height="650" frameborder="0" scrolling="no" autosize=true logo=true src="//plot.ly/~cparker10/16.embed"></iframe>
-                    </div> -->
-                
-                
-                    <div class = "row footerrow align-items-end">
-                        footer row
-                    </div>
-                </div>
+    <body>
+        <div class="jumbotron jumbotron-fluid" style="background-image: url({% static 'djapp1/images/cooking.jpg' %})">
+            <div class = "container">
+                <div class="textbox">
+                <h1 class="display-4">Trends in...the Kitchen</h1>
+                <p class="lead">What dishes do people want to cook?</p>
+                   <p class="lead">We used Google Trends to track the <span class="highlight">top five searches</span> related to <span class="highlight">"how to cook" </span> from 2014 - 2019.
+                   </p> 
+                   <p class="lead"><span class="action">Click the buttons below to see which countries had the most searches for these dishes.</span></p>
+                </p>
             </div>
         </div>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </div>
+    
+        
+            <div class="container">
+                <div class="iframe-container">
+                    <iframe width=100%  height="650" frameborder="0" scrolling="no" src="//plot.ly/~cparker10/16.embed?autosize=true&link=false&logo=false?width=100%"></iframe>
+                </div>
+                <hr>
+                <p><span class="source">Source: Google Trends, June, 2014 - June, 2019</span></p>
+                <p><span class="source">Note: Search volume is relative based on popularity of the term. A search value of 50 is half as popular as that with a value of 100.</span></p>
+            </div> 
+              
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     </body>
 </html>

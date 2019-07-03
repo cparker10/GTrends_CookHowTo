@@ -1,3 +1,8 @@
+
+.action{
+    color: yellow;
+}
+
 /* make iframe responsive */
 .iframe-container {
     position: relative;
@@ -18,10 +23,14 @@
   }
 
   h1{
-      color: red;
+      color: #7c0f19;
   }
 
-
+  .highlight{
+      color: #e77516;
+      text-shadow: .5px .5px#9e7c14;
+  }
+ 
   .headerrow{
     color: blue;
     text-shadow: .5px .5px palevioletred;
@@ -37,6 +46,12 @@
     margin-top: auto;
  }
 
- .jumbotronrow{
-    margin-top: auto;
- }
+ .source{
+    color: gray;
+    font-size: 11;
+    font-style: italic;
+  }
+
+ .textbox{
+    background-color:#c4bebf;
+}
