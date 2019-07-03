@@ -15,7 +15,6 @@ cycler==0.10.0
 decorator==4.4.0
 defusedxml==0.6.0
 descartes==1.1.0
-Django==2.2.3
 entrypoints==0.3
 Fiona==1.7.10
 GDAL==2.2.2
