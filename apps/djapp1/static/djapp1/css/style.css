@@ -1,36 +1,14 @@
-/* .action {
-    /* color: yellow; */
-} */
-
-/* .footerrow{
-    background-color: gray;
-    height: 75px;
-    margin-top: auto;
- } */
 
  h1{
-      /* color: #7c0f19; */
       color: white;
   }
 
   .highlight{
-      /* color: #e77516; */
-      /* text-shadow: .5px .5px#9e7c14; */
-      /* font-family: 'Permanent Marker', cursive; */
       font-family: 'Londrina Solid', cursive;
       font-size: 1.75rem;
       text-decoration: underline;
   }
  
-  /* .headerrow{
-    color: blue;
-    text-shadow: .5px .5px palevioletred;
-    font-size: 45px;
-    background-color: gray;
-    height: 150px;
-    margin-bottom: 10;
- } */
-
  /* how to make iframe responsive */
 .iframe-container {
     position: relative;
@@ -53,7 +31,6 @@
 
 .lead{
     font-size: 16;
-    
     /* font-weight: bold; */
 }
 
@@ -67,5 +44,4 @@
     background-color:#9da6aed4;
     color: #f8de90;
     /* background-image: linear-gradient(to right,#ffffffc4,#ffffff00); */
-    /* opacity: 0.45; */
 }
