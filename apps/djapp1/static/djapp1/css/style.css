@@ -1,12 +1,14 @@
 
- h1{
-      color: white;
+  .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.2em;
+    line-height: 1.3;
   }
 
   .highlight{
-      font-family: 'Londrina Solid', cursive;
-      font-size: 1.75rem;
-      text-decoration: underline;
+    /* text-shadow: .5px .2px #ffc107; */
   }
  
  /* how to make iframe responsive */
@@ -31,7 +33,6 @@
 
 .lead{
     font-size: 16;
-    /* font-weight: bold; */
 }
 
 .source{
@@ -42,6 +43,11 @@
 
 .textbox{
     background-color:#9da6aed4;
-    color: #f8de90;
-    /* background-image: linear-gradient(to right,#ffffffc4,#ffffff00); */
+    color: white;
+    font-family: 'Signika', sans-serif; font-weight: 300;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'kern';
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures;
 }

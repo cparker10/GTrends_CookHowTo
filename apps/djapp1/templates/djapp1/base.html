@@ -3,21 +3,21 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         {% load static %}
         <link rel="stylesheet" href="{% static 'djapp1/css/style.css' %}">
-        <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Signika&display=swap" rel="stylesheet">
     </head>
 
     <body>
+ 
         <div class="jumbotron jumbotron-fluid" style="background-image: url({% static 'djapp1/images/cooking.jpg' %})">
             <div class = "container">
-                <div class="textbox">
-                <h1 class="display-4">What's Cooking: Top 5 Most Popular Dishes</h1>
-                <p class="lead">Who's eating what...and where?  That's what we aim to answer!</p>
-                   <p class="lead">We used Google Trends to track the <span class="highlight">top five searches</span> related to <span class="highlight">"how to cook"</span> from 2014 - 2019.
-                   </p> 
-                   <p class="lead"><span class="highlight">Click the buttons below</span> to see which countries had the most searches for these dishes.</p>
-                </p>
+                <div class="text-center textbox">
+                <h3 class="title">What's Cooking: Top 5 Most Popular Dishes</h3>
+                <div class="dropdown-divider"></div>
+                    <p><span class="highlight">Who's eating what...and where? </span>
+                    <br /> That's what we aim to answer! We used Google Trends to track the top five searches related to "how to cook" from 2014 - 2019.
+                    <br/>Click the buttons below to see which countries had the most searches for these dishes.</p>
+                </div>
             </div>
-        </div>
         </div>
     
         
